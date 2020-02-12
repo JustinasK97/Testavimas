@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testavimas(failed)">
+    <classes>
+      <class name="SeleniumTest">
+        <methods>
+          <include name="close"/>
+          <include name="setup"/>
+          <include name="updateBadRecord"/>
+          <include name="addBadRecord"/>
+        </methods>
+      </class> <!-- SeleniumTest -->
+    </classes>
+  </test> <!-- Testavimas(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->

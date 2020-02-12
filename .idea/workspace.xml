@@ -2,13 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15deed7c-4fe2-4f21-87dd-3547eb18a529" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Testavimas.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/Testavimas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/Testavimas.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/Default Suite/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-SeleniumTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/Testavimas.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/Default Suite/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-failed.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test-output/testng.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,35 +63,26 @@
     </option>
   </component>
   <component name="ProjectId" id="1XIOD0YPsvn9oNPCAE4TlW01SDf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="TestNG.SeleniumTest.searchByKeywordTest">
-    <configuration name="Selenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Selenium" />
-      <module name="Selenium" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTest.searchByKeywordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Selenium" />
+  <component name="RunManager" selected="TestNG.testng">
+    <configuration name="SeleniumTest.addBadRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testavimas" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="searchByKeywordTest" />
+      <option name="METHOD_NAME" value="addBadRecord" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,17 +90,79 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Unnamed" type="TestNG" nameIsGenerated="true">
-      <module name="Selenium" />
+    <configuration name="SeleniumTest.addRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testavimas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="addRecord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.searchByKeywordTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <useClassPathOnly />
       <option name="SUITE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="searchByKeywordTest" />
       <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners>
+        <listener class="org.testng.reporters.EmailableReporter2" />
+      </listeners>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.updateBadRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testavimas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="updateBadRecord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SeleniumTest.updateRecord" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Testavimas" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="updateRecord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testng" type="TestNG">
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="true" />
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners>
@@ -89,14 +173,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Selenium" />
-      <item itemvalue="TestNG.Unnamed" />
+      <item itemvalue="TestNG.testng" />
       <item itemvalue="TestNG.SeleniumTest.searchByKeywordTest" />
+      <item itemvalue="TestNG.SeleniumTest.addRecord" />
+      <item itemvalue="TestNG.SeleniumTest.addBadRecord" />
+      <item itemvalue="TestNG.SeleniumTest.updateBadRecord" />
+      <item itemvalue="TestNG.SeleniumTest.updateRecord" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SeleniumTest.updateRecord" />
+        <item itemvalue="TestNG.SeleniumTest.updateBadRecord" />
+        <item itemvalue="TestNG.SeleniumTest.addBadRecord" />
+        <item itemvalue="TestNG.SeleniumTest.addRecord" />
         <item itemvalue="TestNG.SeleniumTest.searchByKeywordTest" />
-        <item itemvalue="Application.Selenium" />
       </list>
     </recent_temporary>
   </component>
@@ -125,5 +215,46 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="57" y="0" width="596" height="728" key="#SeleniumTest.searchByKeywordTest_(1)" timestamp="1581521082660">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" width="596" height="728" key="#SeleniumTest.searchByKeywordTest_(1)/0.0.1366.728@0.0.1366.728" timestamp="1581521082660" />
+    <state x="0" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581522888415">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="22" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1581522888415" />
+    <state x="87" y="170" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581521355893">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="87" y="170" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1581521355893" />
+    <state x="275" y="151" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581522717514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="151" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1581522717514" />
+    <state x="82" y="41" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1581522488401">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="82" y="41" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1366.728@0.0.1366.728" timestamp="1581522488401" />
+    <state width="637" height="178" key="GridCell.Tab.0.bottom" timestamp="1581529411306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="178" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1581529411306" />
+    <state width="637" height="178" key="GridCell.Tab.0.center" timestamp="1581529411305">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="178" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1581529411305" />
+    <state width="637" height="178" key="GridCell.Tab.0.left" timestamp="1581529411303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="178" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1581529411303" />
+    <state width="637" height="178" key="GridCell.Tab.0.right" timestamp="1581529411306">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="637" height="178" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1581529411306" />
   </component>
 </project>

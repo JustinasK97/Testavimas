@@ -8,10 +8,25 @@ public class SeleniumTest {
         Selenium.setup();
     }
     @Test
-    public void searchByKeywordTest() {
-        Selenium.searchByKeyword("Baranauskas");
+    public void addRecord() {
+        Selenium.addRecord("Filmas San");
     }
-
+    @Test
+    public void addBadRecord() {
+        Selenium.addBadRecord("<???>");
+    }
+    @Test
+    public void deleteRecord() {
+        Selenium.deleteRecord("666");
+    }
+    @Test
+    public void updateRecord() {
+        Selenium.updateRecord("Laba", "Diena", "Ponas");
+    }
+    @Test
+    public void updateBadRecord() {
+        Selenium.updateBadRecord("<<<???>>>", "<<<????>>>", "<<<?????>>>");
+    }
     @AfterTest
     public void close() {
         Selenium.close();
