@@ -39,7 +39,7 @@ public class Selenium {
         directorField.sendKeys(Keys.ENTER);
         WebElement messageField = browser.findElement(By.name("msg-bad"));
     }
-    
+
     public static void deleteRecord(String keyword) {
         WebElement idField = browser.findElement(By.name("id"));
         WebElement deleteButton = browser.findElement(By.name("delete"));
@@ -48,22 +48,26 @@ public class Selenium {
         deleteButton.sendKeys(Keys.ENTER);
     }
 
-    public static void updateRecord(String keyword1, String keyword2, String keyword3) {
+    public static void updateRecord(String keyword0, String keyword1, String keyword2, String keyword3) {
+        WebElement idField = browser.findElement(By.name("id"));
         WebElement titleField = browser.findElement(By.name("pavadinimas"));
         WebElement genreField = browser.findElement(By.name("zanras"));
         WebElement directorField = browser.findElement(By.name("rezisierius"));
         WebElement updateButton = browser.findElement(By.name("update"));
+        idField.sendKeys(keyword0);
         titleField.sendKeys(keyword1);
         genreField.sendKeys(keyword2);
         directorField.sendKeys(keyword3);
         updateButton.sendKeys(Keys.ENTER);
     }
 
-    public static void updateBadRecord(String keyword1, String keyword2, String keyword3) {
+    public static void updateBadRecord(String keyword0, String keyword1, String keyword2, String keyword3) {
+        WebElement idField = browser.findElement(By.name("id"));
         WebElement titleField = browser.findElement(By.name("pavadinimas"));
         WebElement genreField = browser.findElement(By.name("zanras"));
         WebElement directorField = browser.findElement(By.name("rezisierius"));
         WebElement updateButton = browser.findElement(By.name("update"));
+        idField.sendKeys(keyword0);
         titleField.sendKeys(keyword1);
         genreField.sendKeys(keyword2);
         directorField.sendKeys(keyword3);

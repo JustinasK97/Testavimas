@@ -21,11 +21,11 @@ public class SeleniumTest {
     }
     @Test
     public void updateRecord() {
-        Selenium.updateRecord("Laba", "Diena", "Ponas");
+        Selenium.updateRecord("108", "Laba", "Diena", "Ponas");
     }
     @Test
     public void updateBadRecord() {
-        Selenium.updateBadRecord("<<<???>>>", "<<<????>>>", "<<<?????>>>");
+        Selenium.updateBadRecord("<<<??>>>" ,"<<<???>>>", "<<<????>>>", "<<<?????>>>");
     }
     @AfterTest
     public void close() {
