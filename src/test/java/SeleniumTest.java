@@ -9,11 +9,11 @@ public class SeleniumTest {
     }
     @Test
     public void addRecord() {
-        Selenium.addRecord("Filmas San");
+        Selenium.addRecord("vienas", "du", "trys");
     }
     @Test
     public void addBadRecord() {
-        Selenium.addBadRecord("<???>");
+        Selenium.addBadRecord("<???>", "<????>", "<??????>");
     }
     @Test
     public void deleteRecord() {

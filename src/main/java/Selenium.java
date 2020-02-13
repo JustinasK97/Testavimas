@@ -19,25 +19,24 @@ public class Selenium {
         browser.close();
     }
 
-    public static void addRecord(String keyword) {
+    public static void addRecord(String keyword1, String keyword2, String keyword3) {
         WebElement titleField = browser.findElement(By.name("pavadinimas"));
         WebElement genreField = browser.findElement(By.name("zanras"));
         WebElement directorField = browser.findElement(By.name("rezisierius"));
-        titleField.sendKeys(keyword);
-        genreField.sendKeys(keyword);
-        directorField.sendKeys(keyword);
+        titleField.sendKeys(keyword1);
+        genreField.sendKeys(keyword2);
+        directorField.sendKeys(keyword3);
         directorField.sendKeys(Keys.ENTER);
     }
 
-    public static void addBadRecord(String keyword) {
+    public static void addBadRecord(String keyword1, String keyword2, String keyword3) {
         WebElement titleField = browser.findElement(By.name("pavadinimas"));
         WebElement genreField = browser.findElement(By.name("zanras"));
         WebElement directorField = browser.findElement(By.name("rezisierius"));
-        titleField.sendKeys(keyword);
-        genreField.sendKeys(keyword);
-        directorField.sendKeys(keyword);
+        titleField.sendKeys(keyword1);
+        genreField.sendKeys(keyword2);
+        directorField.sendKeys(keyword3);
         directorField.sendKeys(Keys.ENTER);
-        WebElement messageField = browser.findElement(By.name("msg-bad"));
     }
 
     public static void deleteRecord(String keyword) {
@@ -72,7 +71,6 @@ public class Selenium {
         genreField.sendKeys(keyword2);
         directorField.sendKeys(keyword3);
         updateButton.sendKeys(Keys.ENTER);
-        WebElement messageField = browser.findElement(By.name("msg-bad"));
     }
 
     public static void main(String args[]) {
