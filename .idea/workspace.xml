@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15deed7c-4fe2-4f21-87dd-3547eb18a529" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Selenium.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Selenium.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Selenium.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Selenium.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +49,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -59,7 +65,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SeleniumTest.updateRecord">
+  <component name="RunManager" selected="TestNG.SeleniumTest.addRecord (1)">
+    <configuration name="SeleniumTest.addBadRecord (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTesting" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
+      <option name="METHOD_NAME" value="addBadRecord" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SeleniumTest.addBadRecord" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Testavimas" />
       <option name="PACKAGE_NAME" value="" />
@@ -72,36 +90,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumTest.addRecord" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Testavimas" />
+    <configuration name="SeleniumTest.addRecord (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumTesting" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
       <option name="METHOD_NAME" value="addRecord" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SeleniumTest.searchByKeywordTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <option name="SUITE_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumTest" />
-      <option name="METHOD_NAME" value="searchByKeywordTest" />
-      <option name="GROUP_NAME" value="" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <option name="PARAMETERS" value="" />
-      <option name="OUTPUT_DIRECTORY" value="" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="true" />
-      <option name="PROPERTIES_FILE" value="" />
-      <properties />
-      <listeners>
-        <listener class="org.testng.reporters.EmailableReporter2" />
-      </listeners>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -154,19 +150,19 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.testng" />
-      <item itemvalue="TestNG.SeleniumTest.searchByKeywordTest" />
-      <item itemvalue="TestNG.SeleniumTest.addRecord" />
       <item itemvalue="TestNG.SeleniumTest.addBadRecord" />
       <item itemvalue="TestNG.SeleniumTest.updateBadRecord" />
       <item itemvalue="TestNG.SeleniumTest.updateRecord" />
+      <item itemvalue="TestNG.SeleniumTest.addRecord (1)" />
+      <item itemvalue="TestNG.SeleniumTest.addBadRecord (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SeleniumTest.addRecord (1)" />
+        <item itemvalue="TestNG.SeleniumTest.addBadRecord (1)" />
         <item itemvalue="TestNG.SeleniumTest.updateRecord" />
         <item itemvalue="TestNG.SeleniumTest.updateBadRecord" />
         <item itemvalue="TestNG.SeleniumTest.addBadRecord" />
-        <item itemvalue="TestNG.SeleniumTest.addRecord" />
-        <item itemvalue="TestNG.SeleniumTest.searchByKeywordTest" />
       </list>
     </recent_temporary>
   </component>
@@ -180,7 +176,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580730018295</updated>
-      <workItem from="1581574111164" duration="212000" />
+      <workItem from="1581574111164" duration="265000" />
+      <workItem from="1581582229201" duration="2256000" />
     </task>
     <servers />
   </component>

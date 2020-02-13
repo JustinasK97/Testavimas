@@ -43,7 +43,6 @@ public class Selenium {
         WebElement idField = browser.findElement(By.name("id"));
         WebElement deleteButton = browser.findElement(By.name("delete"));
         idField.sendKeys(keyword);
-        deleteButton.sendKeys(keyword);
         deleteButton.sendKeys(Keys.ENTER);
     }
 
